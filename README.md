@@ -9,7 +9,7 @@ go run main.go
 ```
 brew install wrk
 ```
-Program main use up to 350.0%, 16.6 CPU time(5s test), 3M RAM when under max load.
+Program main use up to 350.0%, 16.6 CPU time(5s test), 6M RAM when under max load.
 
 ```
 wrk -t1 -c1 -d5 --latency http://127.0.0.1
